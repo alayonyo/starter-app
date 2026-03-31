@@ -1,1 +1,3 @@
 node_modules/
+# Ignore all generated app folders (only root files are tracked)
+*/

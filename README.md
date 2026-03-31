@@ -4,11 +4,11 @@ A one-command scaffold for React + TypeScript + Tailwind CSS projects. No boiler
 
 ## Requirements
 
-| Tool | Install |
-|------|---------|
-| [Node.js](https://nodejs.org) v18+ | `brew install node` |
-| [pnpm](https://pnpm.io) | `npm install -g pnpm` |
-| [GitHub CLI](https://cli.github.com) _(optional, for pushing)_ | `brew install gh` |
+| Tool                                                           | Install               |
+| -------------------------------------------------------------- | --------------------- |
+| [Node.js](https://nodejs.org) v18+                             | `brew install node`   |
+| [pnpm](https://pnpm.io)                                        | `npm install -g pnpm` |
+| [GitHub CLI](https://cli.github.com) _(optional, for pushing)_ | `brew install gh`     |
 
 ## Setup
 
@@ -32,6 +32,7 @@ pnpm new -- issue-dashboard
 ```
 
 This will:
+
 1. Scaffold a Vite + React + TypeScript project into `./<app-name>/`
 2. Inject Tailwind CSS via CDN into `index.html` (no config file needed)
 3. Replace `App.tsx` with a clean, minimal component using the project name
